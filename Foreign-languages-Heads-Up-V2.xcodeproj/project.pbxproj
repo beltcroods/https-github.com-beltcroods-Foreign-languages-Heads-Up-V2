@@ -14,6 +14,11 @@
 		56DD2EB0261502730051B5AB /* Foreign_languages_Heads_Up_V2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EAE261502730051B5AB /* Foreign_languages_Heads_Up_V2.xcdatamodeld */; };
 		56DD2EB2261502750051B5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DD2EB1261502750051B5AB /* Assets.xcassets */; };
 		56DD2EB5261502750051B5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DD2EB3261502750051B5AB /* LaunchScreen.storyboard */; };
+		56DD2EC326150F240051B5AB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC226150F240051B5AB /* ViewController2.swift */; };
+		56DD2EC526150F310051B5AB /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC426150F310051B5AB /* ViewController3.swift */; };
+		56DD2EC726150F3F0051B5AB /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC626150F3F0051B5AB /* ViewController4.swift */; };
+		56DD2EC926150F4D0051B5AB /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC826150F4D0051B5AB /* ViewController5.swift */; };
+		56DD2ECB26150F610051B5AB /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2ECA26150F610051B5AB /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		56DD2EB1261502750051B5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56DD2EB4261502750051B5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56DD2EB6261502750051B5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DD2EC226150F240051B5AB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		56DD2EC426150F310051B5AB /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		56DD2EC626150F3F0051B5AB /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		56DD2EC826150F4D0051B5AB /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		56DD2ECA26150F610051B5AB /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				56DD2EA5261502730051B5AB /* AppDelegate.swift */,
 				56DD2EA7261502730051B5AB /* SceneDelegate.swift */,
 				56DD2EA9261502730051B5AB /* ViewController.swift */,
+				56DD2EC226150F240051B5AB /* ViewController2.swift */,
+				56DD2EC426150F310051B5AB /* ViewController3.swift */,
+				56DD2EC626150F3F0051B5AB /* ViewController4.swift */,
+				56DD2EC826150F4D0051B5AB /* ViewController5.swift */,
+				56DD2ECA26150F610051B5AB /* ViewController6.swift */,
 				56DD2EAB261502730051B5AB /* Main.storyboard */,
 				56DD2EB1261502750051B5AB /* Assets.xcassets */,
 				56DD2EB3261502750051B5AB /* LaunchScreen.storyboard */,
@@ -141,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DD2EC326150F240051B5AB /* ViewController2.swift in Sources */,
+				56DD2EC726150F3F0051B5AB /* ViewController4.swift in Sources */,
 				56DD2EAA261502730051B5AB /* ViewController.swift in Sources */,
+				56DD2EC526150F310051B5AB /* ViewController3.swift in Sources */,
+				56DD2EC926150F4D0051B5AB /* ViewController5.swift in Sources */,
 				56DD2EB0261502730051B5AB /* Foreign_languages_Heads_Up_V2.xcdatamodeld in Sources */,
+				56DD2ECB26150F610051B5AB /* ViewController6.swift in Sources */,
 				56DD2EA6261502730051B5AB /* AppDelegate.swift in Sources */,
 				56DD2EA8261502730051B5AB /* SceneDelegate.swift in Sources */,
 			);
