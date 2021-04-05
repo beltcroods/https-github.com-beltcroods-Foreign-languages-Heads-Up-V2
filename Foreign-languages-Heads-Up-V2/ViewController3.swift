@@ -23,6 +23,18 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        Timer.scheduledTimer(withTimeInterval: 60, repeats: false) { (Timer) in
+            var timerleft = 60
+            
+                timerleft -= 1
+            self.TimerLabel.text = "\(timerleft)"
+                
+                if timerleft <= 0 {
+                    Timer.invalidate ()
+                    
+                }
+        }
     }
     
     @IBAction func SwipeRight(_ sender: Any) {
@@ -42,5 +54,8 @@ class ViewController3: UIViewController {
         var cnumber = String(CorrectNumber)
         NumberCorrectLabel.text = cnumber
     }
+    
+    
+    
     
 }
