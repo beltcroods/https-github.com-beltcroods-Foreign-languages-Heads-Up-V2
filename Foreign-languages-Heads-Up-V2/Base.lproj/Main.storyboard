@@ -450,6 +450,10 @@
                         <viewLayoutGuide key="safeArea" id="ZKt-Ra-vbm"/>
                     </view>
                     <navigationItem key="navigationItem" id="f1c-iw-9nu"/>
+                    <connections>
+                        <outlet property="EnglishTableView" destination="Nih-tP-3WQ" id="eqM-hz-Zss"/>
+                        <outlet property="OtherLanguageTableView" destination="CXv-Ei-rke" id="rfU-Wa-8va"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6D-KK-dex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
