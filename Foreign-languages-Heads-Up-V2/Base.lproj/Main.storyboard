@@ -170,6 +170,7 @@
                     <navigationItem key="navigationItem" id="8HH-so-7J9"/>
                     <connections>
                         <outlet property="CorrectLabel" destination="u48-Zb-n3D" id="4vd-o4-o3L"/>
+                        <outlet property="DisplayLabel" destination="FC8-Ec-LCJ" id="jJ7-vA-knf"/>
                         <outlet property="NumberCorrectLabel" destination="2ph-JB-dz0" id="WtF-pH-mmK"/>
                         <outlet property="NumberPassedLabel" destination="fbA-0q-AE6" id="wqR-wt-vQp"/>
                         <outlet property="PassedLabel" destination="eFo-lB-bvD" id="wns-NT-XkK"/>
