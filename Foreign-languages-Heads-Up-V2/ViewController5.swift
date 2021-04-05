@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController5: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController5: UIViewController, UITableViewDelegate {
     
     
 
@@ -18,13 +18,7 @@ class ViewController5: UIViewController, UITableViewDelegate, UITableViewDataSou
        
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
     
 
 }
