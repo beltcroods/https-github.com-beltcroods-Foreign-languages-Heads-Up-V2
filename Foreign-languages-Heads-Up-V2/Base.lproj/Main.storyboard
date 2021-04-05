@@ -386,6 +386,10 @@
                         <viewLayoutGuide key="safeArea" id="bAs-ta-7QR"/>
                     </view>
                     <navigationItem key="navigationItem" id="122-ug-FOc"/>
+                    <connections>
+                        <outlet property="EnglishTableView" destination="jkK-5u-tp3" id="ESq-m4-LtZ"/>
+                        <outlet property="OtherTableView" destination="5i5-Hc-xuk" id="DAJ-iW-LKR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thw-VK-V4Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
