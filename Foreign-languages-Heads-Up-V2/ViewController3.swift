@@ -24,9 +24,12 @@ class ViewController3: UIViewController {
         super.viewDidLoad()
 
         
+        
+        
         Timer.scheduledTimer(withTimeInterval: 60, repeats: false) { (Timer) in
             var timerleft = 60
             
+
                 timerleft -= 1
             self.TimerLabel.text = "\(timerleft)"
                 

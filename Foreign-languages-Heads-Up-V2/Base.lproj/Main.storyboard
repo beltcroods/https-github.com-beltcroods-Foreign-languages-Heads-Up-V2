@@ -60,7 +60,6 @@
                             <constraint firstItem="nr4-yO-VuI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YLq-jc-7w7"/>
                             <constraint firstItem="nr4-yO-VuI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="e5f-XQ-Kzc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nr4-yO-VuI" secondAttribute="trailing" constant="103" id="kB2-1M-BMv"/>
-                            <constraint firstItem="Byt-T1-ReW" firstAttribute="top" secondItem="nr4-yO-VuI" secondAttribute="bottom" constant="8" symbolic="YES" id="oD1-R2-JmO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
