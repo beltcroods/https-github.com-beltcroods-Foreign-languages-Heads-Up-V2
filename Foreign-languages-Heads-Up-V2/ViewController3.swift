@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Foundation
 class ViewController3: UIViewController {
 
     @IBOutlet weak var NumberPassedLabel: UILabel!
@@ -20,25 +20,30 @@ class ViewController3: UIViewController {
     var FrenchCardSet = ["une Bande Origianle", "Une Chaine", "Un Vidéoclip", "Un Divertissement", "Un Documentaire", "l'écran", "Les Effets Spéciaux", "Une Interview", "Un Feuilleton", "Une Premiére", "Les Sous-Titres", "Divertir", "Enregistrer", "Retransmettre", "Sortir Un Film"]
     var CorrectArray: [String] = []
     
+    var counter = 10
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
+}
 
-        
-        
-        
-        Timer.scheduledTimer(withTimeInterval: 60, repeats: false) { (Timer) in
-            var timerleft = 60
-            
 
-                timerleft -= 1
-            self.TimerLabel.text = "\(timerleft)"
-                
-                if timerleft <= 0 {
-                    Timer.invalidate ()
-                    
-                }
-        }
+
+@objc func updateCounter() {
+    
+    if counter > 0 {
+        TimerLabel.text = "\(counter)"
+        counter -= 1
     }
+}
+        
+        
+        
+
+ 
+    
+    
     
     @IBAction func SwipeRight(_ sender: Any) {
         var PassedNumber = Int(NumberPassedLabel.text!)!
