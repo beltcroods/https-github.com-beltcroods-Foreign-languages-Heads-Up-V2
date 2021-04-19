@@ -18,7 +18,7 @@ class ViewController5: UIViewController, UITableViewDelegate {
        
     }
     
-    let otherLanguageCorrectArray = ["Yes"]
+    var otherLanguageCorrectArray = [""]
     let englishCorrectArray = [String]()
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        return otherLanguageCorrectArray.count
     }
