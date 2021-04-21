@@ -1,0 +1,6 @@
+framework module Pods_Foreign_languages_Heads_Up_V2 {
+  umbrella header "Pods-Foreign-languages-Heads-Up-V2-umbrella.h"
+
+  export *
+  module * { export * }
+}

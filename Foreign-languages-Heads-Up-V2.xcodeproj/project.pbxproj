@@ -19,9 +19,12 @@
 		56DD2EC726150F3F0051B5AB /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC626150F3F0051B5AB /* ViewController4.swift */; };
 		56DD2EC926150F4D0051B5AB /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2EC826150F4D0051B5AB /* ViewController5.swift */; };
 		56DD2ECB26150F610051B5AB /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD2ECA26150F610051B5AB /* ViewController6.swift */; };
+		C1A6AA7D15ECF218BE8AB855 /* Pods_Foreign_languages_Heads_Up_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57F7A6B90CF1371C0334DC9 /* Pods_Foreign_languages_Heads_Up_V2.framework */; };
+		CC79891C2630BFD600A13F8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC79891B2630BFD600A13F8F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1BD778362805E0A819030D /* Pods-Foreign-languages-Heads-Up-V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foreign-languages-Heads-Up-V2.release.xcconfig"; path = "Target Support Files/Pods-Foreign-languages-Heads-Up-V2/Pods-Foreign-languages-Heads-Up-V2.release.xcconfig"; sourceTree = "<group>"; };
 		56DD2EA2261502730051B5AB /* Foreign-languages-Heads-Up-V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foreign-languages-Heads-Up-V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DD2EA5261502730051B5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56DD2EA7261502730051B5AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		56DD2EC626150F3F0051B5AB /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		56DD2EC826150F4D0051B5AB /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		56DD2ECA26150F610051B5AB /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		AA43768D577E2B6DF99713CF /* Pods-Foreign-languages-Heads-Up-V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foreign-languages-Heads-Up-V2.debug.xcconfig"; path = "Target Support Files/Pods-Foreign-languages-Heads-Up-V2/Pods-Foreign-languages-Heads-Up-V2.debug.xcconfig"; sourceTree = "<group>"; };
+		C57F7A6B90CF1371C0334DC9 /* Pods_Foreign_languages_Heads_Up_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foreign_languages_Heads_Up_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC79891B2630BFD600A13F8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A6AA7D15ECF218BE8AB855 /* Pods_Foreign_languages_Heads_Up_V2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		219D742E853B7123A6014D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57F7A6B90CF1371C0334DC9 /* Pods_Foreign_languages_Heads_Up_V2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56DD2E99261502730051B5AB = {
 			isa = PBXGroup;
 			children = (
 				56DD2EA4261502730051B5AB /* Foreign-languages-Heads-Up-V2 */,
 				56DD2EA3261502730051B5AB /* Products */,
+				886EFD8B7D146FED0C647BF5 /* Pods */,
+				219D742E853B7123A6014D03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +97,20 @@
 				56DD2EB1261502750051B5AB /* Assets.xcassets */,
 				56DD2EB3261502750051B5AB /* LaunchScreen.storyboard */,
 				56DD2EB6261502750051B5AB /* Info.plist */,
+				CC79891B2630BFD600A13F8F /* GoogleService-Info.plist */,
 				56DD2EAE261502730051B5AB /* Foreign_languages_Heads_Up_V2.xcdatamodeld */,
 			);
 			path = "Foreign-languages-Heads-Up-V2";
+			sourceTree = "<group>";
+		};
+		886EFD8B7D146FED0C647BF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA43768D577E2B6DF99713CF /* Pods-Foreign-languages-Heads-Up-V2.debug.xcconfig */,
+				4F1BD778362805E0A819030D /* Pods-Foreign-languages-Heads-Up-V2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56DD2EB9261502750051B5AB /* Build configuration list for PBXNativeTarget "Foreign-languages-Heads-Up-V2" */;
 			buildPhases = (
+				3445D1BA4D0A03D62CB74E7C /* [CP] Check Pods Manifest.lock */,
 				56DD2E9E261502730051B5AB /* Sources */,
 				56DD2E9F261502730051B5AB /* Frameworks */,
 				56DD2EA0261502730051B5AB /* Resources */,
+				5ACF9AC571AADA05DD4BF3C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,12 +174,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				56DD2EB5261502750051B5AB /* LaunchScreen.storyboard in Resources */,
+				CC79891C2630BFD600A13F8F /* GoogleService-Info.plist in Resources */,
 				56DD2EB2261502750051B5AB /* Assets.xcassets in Resources */,
 				56DD2EAD261502730051B5AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3445D1BA4D0A03D62CB74E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foreign-languages-Heads-Up-V2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ACF9AC571AADA05DD4BF3C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foreign-languages-Heads-Up-V2/Pods-Foreign-languages-Heads-Up-V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foreign-languages-Heads-Up-V2/Pods-Foreign-languages-Heads-Up-V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foreign-languages-Heads-Up-V2/Pods-Foreign-languages-Heads-Up-V2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56DD2E9E261502730051B5AB /* Sources */ = {
@@ -306,6 +379,7 @@
 		};
 		56DD2EBA261502750051B5AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA43768D577E2B6DF99713CF /* Pods-Foreign-languages-Heads-Up-V2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +398,7 @@
 		};
 		56DD2EBB261502750051B5AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1BD778362805E0A819030D /* Pods-Foreign-languages-Heads-Up-V2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
