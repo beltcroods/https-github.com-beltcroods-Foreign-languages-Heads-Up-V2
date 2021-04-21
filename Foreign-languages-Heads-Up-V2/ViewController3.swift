@@ -68,8 +68,7 @@ class ViewController3: UIViewController {
                var Pnumber = String(PassedNumber)
                NumberPassedLabel.text = Pnumber
         
-        CorrectArray.append(contentsOf: [DisplayLabel.text!])
-        print(CorrectArray)
+        
     }
     
    
@@ -78,8 +77,21 @@ class ViewController3: UIViewController {
         CorrectNumber += 1
         var cnumber = String(CorrectNumber)
         NumberCorrectLabel.text = cnumber
+        
+        CorrectArray.append(contentsOf: [DisplayLabel.text!])
+        print(CorrectArray)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ViewController5 else
+        {
+            return
+        }
+        
+        destination.otherLanguageCorrectArray = CorrectArray
+    }
+
     
     
     
