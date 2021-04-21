@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController5: UIViewController, UITableViewDelegate {
+class ViewController5: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
+    @IBOutlet weak var EnglishTableView: UITableView!
+    var otherLanguageCorrectArray = [""]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,13 +19,14 @@ class ViewController5: UIViewController, UITableViewDelegate {
        
     }
     
-    var otherLanguageCorrectArray = [""]
+        
     let englishCorrectArray = [String]()
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        return otherLanguageCorrectArray.count
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return otherLanguageCorrectArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellOtherCorrect", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellOther1", for: indexPath)
         
         cell.textLabel?.text = otherLanguageCorrectArray[indexPath.item]
         
@@ -36,9 +38,9 @@ class ViewController5: UIViewController, UITableViewDelegate {
     }
     
     func tableView2(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellEnglishCorrect", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellEnglish1", for: indexPath)
         
-        cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
+        cell.textLabel?.text = otherLanguageCorrectArray[indexPath.item]
         
         return cell
     
@@ -48,6 +50,6 @@ class ViewController5: UIViewController, UITableViewDelegate {
     
     @IBOutlet weak var OtherTableView: UITableView!
     
-    @IBOutlet weak var EnglishTableView: UITableView!
+    
     
 }
