@@ -20,29 +20,46 @@ class ViewController3: UIViewController {
     var FrenchCardSet = ["une Bande Origianle", "Une Chaine", "Un Vidéoclip", "Un Divertissement", "Un Documentaire", "l'écran", "Les Effets Spéciaux", "Une Interview", "Un Feuilleton", "Une Premiére", "Les Sous-Titres", "Divertir", "Enregistrer", "Retransmettre", "Sortir Un Film"]
     var CorrectArray: [String] = []
     
-    var counter = 10
+    var counter = 100
+    
+    
+    var timer: Timer!
+
+    
+         // Repeat "func Update() " every second and update the label
+    
+    
+    
+    @objc func updateCounter() {
+        
+        if counter > 0 {
+            counter -= 1
+            TimerLabel.text = "\(counter)"
+        }else{
+            TimerLabel.text = "0"
+            let storyBoard : UIStoryboard = UIStoryboard(name: "ViewController3", bundle:nil)
+
+            let ViewController4 = storyBoard.instantiateViewController(withIdentifier: "ViewController4") as! ViewController4
+
+            self.present(ViewController4, animated:true, completion:nil)        }
+    }
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
-}
-
-
-
-@objc func updateCounter() {
-    
-    if counter > 0 {
-        TimerLabel.text = "\(counter)"
-        counter -= 1
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false, block: { timer in
+            while self.counter > 0 {
+                self.updateCounter()
     }
+})
+        
+        
 }
-        
-        
-        
 
- 
-    
     
     
     @IBAction func SwipeRight(_ sender: Any) {
