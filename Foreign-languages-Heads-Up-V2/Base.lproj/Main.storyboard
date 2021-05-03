@@ -388,6 +388,7 @@
                     <navigationItem key="navigationItem" id="122-ug-FOc"/>
                     <connections>
                         <outlet property="EnglishTableView" destination="jkK-5u-tp3" id="ESq-m4-LtZ"/>
+                        <outlet property="OtherTableView" destination="TcU-dh-D38" id="1mu-1S-XUg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thw-VK-V4Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

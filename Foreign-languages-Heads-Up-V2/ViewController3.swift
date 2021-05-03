@@ -133,7 +133,7 @@ class ViewController3: UIViewController {
         var cnumber = String(CorrectNumber)
         NumberCorrectLabel.text = cnumber
         
-        CorrectArray.append(contentsOf: [(DisplayLabel.text ?? "ERORR")])
+        CorrectArray.append(contentsOf: [(DisplayLabel.text ?? "ERROR")])
         print(CorrectArray)
         
         let CurrentCardNumber = Int.random(in: 1...13)
